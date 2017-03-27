@@ -1,4 +1,6 @@
 import sys, os, pwd, grp, signal, time
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from resource_management import *
 from subprocess import call
 from setup_hue import setup_hue
